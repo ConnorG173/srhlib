@@ -10,10 +10,10 @@ To Use:
 
 Use Example
 
-in all other .c/.cpp/.h files:
-#include sr_lookuptable.h
-//Code using that header's interface
+in all other .c/.cpp/.h files:  
+#include sr_lookuptable.h  
+//Code using that header's interface  
 
-in ONE .c/.cpp file:
-#define SR_LOOKUPTABLE_IMPLEMENTATION
-#include sr_lookuptable.h
+in ONE .c/.cpp file:  
+#define SR_LOOKUPTABLE_IMPLEMENTATION  
+#include sr_lookuptable.h  
