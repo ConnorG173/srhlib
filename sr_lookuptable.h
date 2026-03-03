@@ -34,7 +34,7 @@ lut_t init_lut_arr_heap(double* restrict vals, double* restrict keys, size_t num
  */
 lut_t init_lut_premade_arr(const keyval_t* keyval_arr, size_t num_keys);
 
-#ifdef LUT_IMPLEMENTATION
+#ifdef SR_LOOKUPTABLE_IMPLEMENTATION
 
 #include <memory.h>
 #include <math.h>
